@@ -1,0 +1,238 @@
+@font-face{
+    font-family: Open_Sans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F7F8;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.fas{
+    color: white !important;
+}
+.fa-pencil-alt, .fa-home, .fa-birthday-cake{
+    color: black !important;
+}
+.fa-users, .fa-calendar-check, .fa-circle-notch{
+    color: white;
+}
+.fa-times{
+    color: black !important;
+}
+.wicon{
+    color: white !important;
+}
+.faBugBig{
+    font-size: 36px !important;
+}
+.blackColor{
+    color: black !important;
+}
+
+/* START of custom border and outline */
+.noneOutlineBorder{
+    border: none;
+    outline: none;
+}
+.boxShadow{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.borderRadius{
+    border-radius: 4px;
+}
+
+/* END of custom border and outline */
+/* START custom backgrounds */
+.bg-nearlyDark{
+    background-color: #4D636F;
+}
+.bg-almostdark{
+    background-color: #3A4B53;
+}
+.bg-green{
+    background-color: #4CAF50;
+}
+.bg-nearlyBlue{
+    background-color: #7D97A5;
+}
+.bg-tire{
+    background-color: #303E45;
+}
+.bg-yekamtire{
+    background-color: #3A4B53;
+}
+.bg-kamtire{
+    background-color: #435761;
+}
+.bg-khp{
+    background-color: #57707D;
+}
+.bg-ykhp{
+    background-color: #607D8B;
+}
+.bg-rkhp{
+    background-color: #7D97A5;
+}
+.bg-khkhp{
+    background-color: #9EB1BB;
+}
+.bg-kkhkhp{
+    background-color: #BECBD2;
+}
+.bg-ab{
+    background-color: #DFE5E8;
+}
+.bg-lightGreen{
+    background-color: #94CF96;
+}
+.bg-lightRed{
+    background-color: #F88E86;
+}
+/* End of custom backgrounds */
+
+
+/* START custom padding */
+.padding1224{
+    padding: 12px 24px !important;
+}
+.padding08{
+    padding: 0px 8px !important;
+}
+.padding016{
+    padding: 0px 16px !important;
+}
+.padding816{
+    padding: 8px 16px;
+}
+.bottomBorder{
+    border-bottom: 1px solid rgba(201, 190, 190, 0.658);
+}
+/* END of custom padding */
+
+
+/* START custom font */
+.size12{
+    font-size: 12px;
+}
+.openSans1218{
+    font-family: Open_Sans;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.openSans1523{
+    font-family: Open_Sans;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.openSans1523700{
+    font-family: Open_Sans;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 700;
+}
+.openSans1827{
+    font-family: Open_Sans;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.openSans2030{
+    font-family: Open_Sans;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.segoe1624{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* END of custom font */
+
+
+/* START navbar settings */
+.mynavM:hover{
+    background-color: white;
+}
+.mynavM:hover .fas{
+    color: black !important;
+}
+.mynavFL:hover{
+    background-color: lightgray !important;
+    color: black !important;
+}
+.mynavFL:hover .fas{
+    color: black !important;
+}
+.avatar{
+    width: 70px;
+    padding: 12px 24px;
+}
+
+#toggleMenu{
+    padding: 14px 24px;
+}
+/* End of navbar settings */
+
+
+/* Start Main content */
+
+
+/* Start left sidebar */
+.avatar3{
+    width: 106px;
+    margin: 15px 0px;
+    border-radius: 50%;
+}
+.marginY15{
+    margin: 15px 0px;
+}
+.thubmnailImg{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.sec2:hover{
+    background-color: lightgray;
+    /* color:black !important; */
+}
+.sec2:hover span{
+    color:black !important;
+}
+.sec2:hover .fas{
+    color:black !important;
+}
+.sec2:hover .far{
+    color:black !important;
+}
+.sec2:hover .fa-check{
+    color:black !important;
+} 
+.sec2:hover .fa-times{
+    color:black !important;
+} 
+/* End left sidebar */
+
+
+/* Start of Middle content */
+#mlogo{
+    width: 60px;
+    margin-right: 16px !important;
+    border-radius: 50%;
+    display: inline;
+}
+
+/* End of Middle content */
+
+/* End main content */
+
+
