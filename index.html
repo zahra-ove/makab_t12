@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>W3.CSS Template</title>
 </head>
-<body>
+<body style="padding-top: 30px;">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-nearlyDark p-0 mb-4">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-nearlyDark p-0 mb-4 fixed-top">
         
-        <a class="navbar-brand mynavFL bg-almostdark padding1224 openSans1827 text-white mr-0" href="#" id="logo"><i class="fas fa-home fa-sm mr-3"></i>Logo</a>
+        <a class="navbar-brand mynavFL bg-almostdark padding1224 openSans1827 text-white mr-0" href="#" id="logo"><i class="fas fa-home fa-sm mr-3 wicon"></i>Logo</a>
         <a class="d-sm-none" type="button" id="toggleMenu" >
             <i class="fas fa-bars fa-md"></i>
         </a>
@@ -45,14 +45,14 @@
     </nav>
 
 
-    <ul class="nav flex-column bg-nearlyDark openSans1827 d-none" id="navbarSupportedContent">
-        <li class="nav-item">
+    <ul class="nav flex-column bg-nearlyDark openSans1827 d-none pt-4" id="navbarSupportedContent">
+        <li class="nav-item" style="padding: 4px 8px;">
           <a class="nav-link text-white" href="#">Link 2</a>
         </li>
-        <li class="nav-item ">
+        <li class="nav-item" style="padding: 4px 8px;">
           <a class="nav-link text-white" href="#">Link 3</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" style="padding: 4px 8px;">
           <a class="nav-link text-white" href="#">My Profile</a>
         </li>
     </ul>
@@ -61,179 +61,182 @@
 
 
     <!-- START of Main Content -->
-    <div class="ml-4">
-        <div class="row">
-            <!-- Left side bar -->
-            <div class="col-3 ml-3 ">
-                <!-- section1 -->
-                <div class="boxShadow px-3 marginY15 bg-white borderRadius">
-                    <h4 class="openSans2030 my-2 text-center">My Profile</h4>
-                    <p class="text-center"><img src="./assets/images/avatar3.png" alt="" class="avatar3"></p>
-                    <hr/>
-                    <p class="marginY15"><i class="fas fa-pencil-alt" style="margin-right:16px;"></i>Designer, UI</p>
-                    <p class="marginY15"><i class="fas fa-home" style="margin-right:16px;"></i>London, UK</p>
-                    <p class="marginY15"><i class="fas fa-birthday-cake" style="margin-right:16px;padding-bottom:15px"></i>April 1, 1988</p>
-                </div>
-                <!-- section2 -->
-                <div class="boxShadow bg-nearlyBlue">
-                    <p class="padding816 bottomBorder m-0 openSans1523 sec2 cursorPointer"   data-toggle="collapse" data-target="#c1"><i class="fas fa-circle-notch mr-3"></i><span class="text-white">My Groups</span></p>
-                    <div id="c1" class="collapse bg-white text-dark" style="padding:15px 16px;">
-                        <p class="mb-0 openSans1523">Some text..</p>
-                    </div>
-
-                    <p class="padding816 bottomBorder m-0 openSans1523 sec2 cursorPointer" data-toggle="collapse" data-target="#c2"><i class="far fa-calendar-check mr-3"></i><span class="text-white">My Events</span></p>
-                    <div id="c2" class="collapse bg-white text-dark" style="padding:15px 16px;">
-                        <p class="my-0 openSans1523">Some other text..</p>
-                    </div>
-
-                    <p class="padding816 m-0 openSans1523 sec2 cursorPointer"  data-toggle="collapse" data-target="#c3"><i class="fas fa-users mr-3"></i><span class="text-white">My Photos</span></p>
-                    <div id="c3" class="collapse bg-white text-dark boxShadow"  style="padding:15px 0px;">
-                        <div class="row mx-auto" >
-                            <div class="col-6 pr-0" style="width:70%;"><img src="./assets/images/lights.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                            <div class="col-6 pl-0" style="width:70%;"><img src="./assets/images/nature.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                            <div class="col-6 pr-0" style="width:80%;"><img src="./assets/images/mountains.jpg" alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                            <div class="col-6 pl-0" style="width:80%;"><img src="./assets/images/forest.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                            <div class="col-6 pr-0" style="width:80%;"><img src="./assets/images/nature.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                            <div class="col-6 pl-0" style="width:80%;"><img src="./assets/images/snow.jpg"      alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="boxShadow marginY15 bg-white borderRadius" style="padding: 15px 16px;">
-                  <p class="mb-3">Interests</p>
-                  <span class="padding08 openSans1218 bg-tire text-white">News</span>
-                  <span class="padding08 openSans1218 bg-yekamtire text-white">W3Schools</span>
-                  <span class="padding08 openSans1218 bg-kamtire text-white">Labels</span>
-                  <span class="padding08 openSans1218 bg-kamtire text-white">Games</span>
-                  <span class="padding08 openSans1218 bg-khp text-white">Friends</span>
-                  <span class="padding08 openSans1218 bg-ykhp text-white">Games</span>
-                  <span class="padding08 openSans1218 bg-rkhp text-white">Friends</span>
-                  <span class="padding08 openSans1218 bg-khkhp">Food</span>
-                  <span class="padding08 openSans1218 bg-kkhkhp">Design</span>
-                  <span class="padding08 openSans1218 bg-ab">Art</span>
-                  <span class="padding08 openSans1218 bg-white">Photos</span>
-                </div>
-
-                <!-- <div class="marginY15 padding016 borderRadius" style="position:relative;background-color: #DFE5E8;border:1px solid #CCCCCC;">
-                  <i class="fas fa-times" style="position:absolute;top:0;left:265px;padding:8px 16px;background-color: #BECBD2;"></i>
-                  <p class="openSans1523700 mb-0" style="padding: 15px 0px;">Hey!</p>
-                  <p class="openSans1523 mb-0" style="padding-bottom: 15px;">People are looking at your profile. Find out who.</p>
-                </div> -->
-
-
-                <div class="my-4 padding016 borderRadius alert alert-dismissible" style="position:relative;background-color: #DFE5E8;border:1px solid #CCCCCC;">
-                  <i class="fas fa-times" style="position:absolute;top:0;left:265px;padding:8px 16px;background-color: #BECBD2;" data-dismiss="alert"></i>
-                  <p class="openSans1523700 mb-0" style="padding: 15px 0px;">Hey!</p>
-                  <p class="openSans1523 mb-0" style="padding-bottom: 15px;">People are looking at your profile. Find out who.</p>
-                </div>
-
-            </div>
-            <!-- End of left side bar -->
-
-            <!-- Middle sidebar -->
-            <div class="col-6 ml-4">
-              <!-- first div -->
-              <div class="bg-white boxShadow marginY15 borderRadius" style="padding:8px 16px;">
-                <h6 class="my-3 segoe1624" style="opacity:0.6;">Social Media template by w3.css</h6>
-                <p class="openSans1523 padding816" style="border: 1px solid #ccc!important;">Status: Feeling Blue</p>
-                <button class="bg-ykhp text-white padding816 noneOutlineBorder"><i class="fas fa-pencil-alt fa-sm mr-2" style="color: white !important;"></i>Post</button>
+    <!-- style="border:1px solid white; margin-top:1%;" -->
+    <div class="ml-sm-4 mt-4" >
+      <div class="row mx-0">
+          <!-- Left side bar -->
+          <div class="col-sm-3 col-12">
+              <!-- section1 -->
+              <div class="boxShadow px-3 marginY15 bg-white borderRadius" style="padding-top:1px;">
+                  <h4 class="openSans2030 my-2 text-center">My Profile</h4>
+                  <p class="text-center"><img src="./assets/images/avatar3.png" alt="" class="avatar3"></p>
+                  <hr/>
+                  <p class="marginY15"><i class="fas fa-pencil-alt" style="margin-right:16px;"></i>Designer, UI</p>
+                  <p class="marginY15"><i class="fas fa-home" style="margin-right:16px;"></i>London, UK</p>
+                  <p class="marginY15"><i class="fas fa-birthday-cake" style="margin-right:16px;padding-bottom:15px"></i>April 1, 1988</p>
               </div>
-              <!-- second div -->
-              <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
-                <div class="d-flex pb-4">
-                  <img src="./assets/images/avatar2.png" alt="" id="mlogo">
-                  <p class="my-auto openSans2030">John Doe</p>
-                  <span class="openSans1523 ml-auto" style="color: #9B9B9B;">1 min</span>
-                </div>
-                <hr/>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <div class="row mb-3">
-                    <div class="col-6 pr-1" style="width:70%"><img src="./assets/images/lights.jpg" alt="" style="width:100%"></div>
-                    <div class="col-6 pl-1" style="width:70%"><img src="./assets/images/nature.jpg" alt="" style="width:100%"></div>
+              <!-- section2 -->
+              <div class="boxShadow bg-nearlyBlue">
+                  <p class="padding816 bottomBorder m-0 openSans1523 sec2 cursorPointer"   data-toggle="collapse" data-target="#c1"><i class="fas fa-circle-notch mr-3"></i><span class="text-white">My Groups</span></p>
+                  <div id="c1" class="collapse bg-white text-dark" style="padding:15px 16px;">
+                      <p class="mb-0 openSans1523">Some text..</p>
                   </div>
 
-                  <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-thumbs-up" style="color:white !important;"></i> Like</button>
-                  <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-comment mr-1" style="color:white !important;"></i> Comment</button>
+                  <p class="padding816 bottomBorder m-0 openSans1523 sec2 cursorPointer" data-toggle="collapse" data-target="#c2"><i class="far fa-calendar-check mr-3"></i><span class="text-white">My Events</span></p>
+                  <div id="c2" class="collapse bg-white text-dark" style="padding:15px 16px;">
+                      <p class="my-0 openSans1523">Some other text..</p>
+                  </div>
+
+                  <p class="padding816 m-0 openSans1523 sec2 cursorPointer"  data-toggle="collapse" data-target="#c3"><i class="fas fa-users mr-3"></i><span class="text-white">My Photos</span></p>
+                  <div id="c3" class="collapse bg-white text-dark boxShadow"  style="padding:15px 0px;">
+                      <div class="row mx-auto" >
+                          <div class="col-sm-6 col-12 pr-sm-0" style="width:70%;"><img src="./assets/images/lights.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                          <div class="col-sm-6 col-12 pl-sm-0" style="width:70%;"><img src="./assets/images/nature.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                          <div class="col-sm-6 col-12 pr-sm-0" style="width:80%;"><img src="./assets/images/mountains.jpg" alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                          <div class="col-sm-6 col-12 pl-sm-0" style="width:80%;"><img src="./assets/images/forest.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                          <div class="col-sm-6 col-12 pr-sm-0" style="width:80%;"><img src="./assets/images/nature.jpg"    alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                          <div class="col-sm-6 col-12 pl-sm-0" style="width:80%;"><img src="./assets/images/snow.jpg"      alt=""   class="thubmnailImg"  style="padding:0px 8px;"></div>
+                      </div>
+                  </div>
               </div>
 
-              <!-- third div -->
-              <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
-                <div class="d-flex pb-4">
-                  <img src="./assets/images/avatar4.png" alt="" id="mlogo">
-                  <p class="my-auto openSans2030">John Doe</p>
-                  <span class="openSans1523 ml-auto" style="color: #9B9B9B;">16 min</span>
-                </div>
-                <hr/>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-thumbs-up" style="color:white !important;"></i> Like</button>
-                  <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-comment mr-1" style="color:white !important;"></i> Comment</button>
+              <div class="boxShadow marginY15 bg-white borderRadius" style="padding: 15px 16px;">
+                <p class="mb-3">Interests</p>
+                <span class="padding08 openSans1218 bg-tire text-white">News</span>
+                <span class="padding08 openSans1218 bg-yekamtire text-white">W3Schools</span>
+                <span class="padding08 openSans1218 bg-kamtire text-white">Labels</span>
+                <span class="padding08 openSans1218 bg-kamtire text-white">Games</span>
+                <span class="padding08 openSans1218 bg-khp text-white">Friends</span>
+                <span class="padding08 openSans1218 bg-ykhp text-white">Games</span>
+                <span class="padding08 openSans1218 bg-rkhp text-white">Friends</span>
+                <span class="padding08 openSans1218 bg-khkhp">Food</span>
+                <span class="padding08 openSans1218 bg-kkhkhp">Design</span>
+                <span class="padding08 openSans1218 bg-ab">Art</span>
+                <span class="padding08 openSans1218 bg-white">Photos</span>
               </div>
-              <!-- forth div -->
-              <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
-                <div class="d-flex pb-4">
-                  <img src="./assets/images/avatar5.png" alt="" id="mlogo">
-                  <p class="my-auto openSans2030">Angie Jane</p>
-                  <span class="openSans1523 ml-auto" style="color: #9B9B9B;">32 min</span>
+
+              <!-- <div class="marginY15 padding016 borderRadius" style="position:relative;background-color: #DFE5E8;border:1px solid #CCCCCC;">
+                <i class="fas fa-times" style="position:absolute;top:0;left:265px;padding:8px 16px;background-color: #BECBD2;"></i>
+                <p class="openSans1523700 mb-0" style="padding: 15px 0px;">Hey!</p>
+                <p class="openSans1523 mb-0" style="padding-bottom: 15px;">People are looking at your profile. Find out who.</p>
+              </div> -->
+
+
+              <div class="my-4 padding016 borderRadius alert alert-dismissible" style="position:relative;background-color: #DFE5E8;border:1px solid #CCCCCC;">
+                <i class="fas fa-times" style="position:absolute;top:0;right:0px;padding:8px 16px;background-color: #BECBD2;" data-dismiss="alert"></i>
+                <p class="openSans1523700 mb-0" style="padding: 15px 0px;">Hey!</p>
+                <p class="openSans1523 mb-0" style="padding-bottom: 15px;">People are looking at your profile. Find out who.</p>
+              </div>
+
+          </div>
+          <!-- End of left side bar -->
+
+          <!-- Middle sidebar -->
+          <div class="col-sm-6 col-12 ml-sm-4">
+            <!-- first div -->
+            <div class="bg-white boxShadow marginY15 borderRadius" style="padding:8px 16px;">
+              <h6 class="my-3 segoe1624" style="opacity:0.6;">Social Media template by w3.css</h6>
+              <p class="openSans1523 padding816" style="border: 1px solid #ccc!important;">Status: Feeling Blue</p>
+              <button class="bg-ykhp text-white padding816 noneOutlineBorder"><i class="fas fa-pencil-alt fa-sm mr-2" style="color: white !important;"></i>Post</button>
+            </div>
+            <!-- second div -->
+            <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
+              <div class="d-flex pb-4">
+                <img src="./assets/images/avatar2.png" alt="" id="mlogo">
+                <p class="my-auto openSans2030">John Doe</p>
+                <span class="openSans1523 ml-auto" style="color: #9B9B9B;">1 min</span>
+              </div>
+              <hr/>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="row mb-3">
+                  <div class="col-sm-6 col-12 pr-sm-1 pb-3" style="width:70%"><img src="./assets/images/lights.jpg" alt="" style="width:100%"></div>
+                  <div class="col-sm-6 col-12 pl-sm-1" style="width:70%"><img src="./assets/images/nature.jpg" alt="" style="width:100%"></div>
                 </div>
-                <hr/>
-                <p>Have you seen this?</p>
-                <div class="mb-4"><img src="./assets/images/nature.jpg" alt=""></div>
+
+                <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-thumbs-up" style="color:white !important;"></i> Like</button>
+                <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-comment mr-1" style="color:white !important;"></i> Comment</button>
+            </div>
+
+            <!-- third div -->
+            <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
+              <div class="d-flex pb-4">
+                <img src="./assets/images/avatar4.png" alt="" id="mlogo">
+                <p class="my-auto openSans2030">John Doe</p>
+                <span class="openSans1523 ml-auto" style="color: #9B9B9B;">16 min</span>
+              </div>
+              <hr/>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-thumbs-up" style="color:white !important;"></i> Like</button>
                 <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-comment mr-1" style="color:white !important;"></i> Comment</button>
+            </div>
+            <!-- forth div -->
+            <div class="bg-white boxShadow marginY15  borderRadius pt-4 px-3">
+              <div class="d-flex pb-4">
+                <img src="./assets/images/avatar5.png" alt="" id="mlogo">
+                <p class="my-auto openSans2030">Angie Jane</p>
+                <span class="openSans1523 ml-auto" style="color: #9B9B9B;">32 min</span>
+              </div>
+              <hr/>
+              <p>Have you seen this?</p>
+              <div class="mb-4" style="width:100%"><img src="./assets/images/nature.jpg" alt="" style="width:100%"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-thumbs-up" style="color:white !important;"></i> Like</button>
+              <button class="bg-ykhp text-white padding816 noneOutlineBorder mb-3"><i class="far fa-comment mr-1" style="color:white !important;"></i> Comment</button>
+            </div>
+          </div>
+          <!-- END of Middle sidebar -->
+
+          <!-- Right side bar -->
+          <div class="col-sm-2 col-12 ml-sm-4 mr-sm-0 ">
+            <!-- first div -->
+            <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white borderRadius">
+              <p class="openSans1523 my-3">Upcoming Events:</p>
+              <div class="mx-auto my" style="width:100%;"><img src="./assets/images/forest.jpg" alt="" style="width:100%;"></div>
+              <p class="marginY15 openSans1523"><strong>Holiday</strong></p>
+              <p class="openSans1523">Friday 15:00</p>
+              <button class="openSans1523 bg-ab padding816 noneOutlineBorder mb-2" style="width:100%;cursor:pointer;">Info</button>
+            </div>
+
+
+            <!-- second div -->
+            <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white borderRadius">
+              <p class="openSans1523 my-3">Friend Request</p>
+              <div class="mx-auto my" style="width:60%;"><img src="./assets/images/avatar5.png" alt="" style="width:100%;"></div>
+              <p class="mb-1 openSans1523">Jane Doe</p>
+              <div class="btn-group mx-auto">
+                <button class="bg-lightGreen noneOutlineBorder py-2 my-3 sec2"  style="padding-left:36px; padding-right:36px;"><i class="fas fa-check wicon" ></i></button>
+                <button class="bg-lightRed   noneOutlineBorder py-2 my-3 sec2"  style="padding-left:36px; padding-right:36px;"><i class="fas fa-times wicon" ></i></button>
               </div>
             </div>
-            <!-- END of Middle sidebar -->
 
-            <!-- Right side bar -->
-            <div class="col-2 ml-4 mr-0 ">
-              <!-- first div -->
-              <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white">
-                <p class="openSans1523 my-3">Upcoming Events:</p>
-                <div class="mx-auto my" style="width:100%;"><img src="./assets/images/forest.jpg" alt="" style="width:100%;"></div>
-                <p class="marginY15 openSans1523"><strong>Holiday</strong></p>
-                <p class="openSans1523">Friday 15:00</p>
-                <button class="openSans1523 bg-ab padding816 noneOutlineBorder" style="width:100%;">Info</button>
-              </div>
-
-
-              <!-- second div -->
-              <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white">
-                <p class="openSans1523 my-3">Friend Request</p>
-                <div class="mx-auto my" style="width:60%;"><img src="./assets/images/avatar5.png" alt="" style="width:100%;"></div>
-                <p class="mb-1 openSans1523">Jane Doe</p>
-                <div class="btn-group mx-auto">
-                  <button class="bg-lightGreen noneOutlineBorder py-2 my-3 sec2"  style="padding-left:36px; padding-right:36px;"><i class="fas fa-check wicon" ></i></button>
-                  <button class="bg-lightRed   noneOutlineBorder py-2 my-3 sec2"  style="padding-left:36px; padding-right:36px;"><i class="fas fa-times wicon" ></i></button>
-                </div>
-
-              </div>
-
-              <!-- third div -->
-              <div class="boxShadow text-center marginY15 text-center px-3 bg-white" style="padding-top:1px;padding-bottom:1px;">
-                <p class="openSans1523 py-3 my-3">ADS</p>
-              </div>
-
-              <!-- forth div -->
-              <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white">
-                <i class="fas fa-bug faBugBig my-3 py-4 " style="color:black !important;"></i>
-              </div>
-
+            <!-- third div -->
+            <div class="boxShadow text-center marginY15 text-center px-3 bg-white borderRadius" style="padding-top:1px;padding-bottom:1px;">
+              <p class="openSans1523 py-3 my-3">ADS</p>
             </div>
-            <!-- End of Right side bar -->
-        </div>
+
+            <!-- forth div -->
+            <div class="boxShadow text-center marginY15 text-center px-3 py-1 bg-white borderRadius">
+              <i class="fas fa-bug faBugBig my-3 py-4 " style="color:black !important;"></i>
+            </div>
+
+          </div>
+          <!-- End of Right side bar -->
+      </div>
     </div>
-    <!-- END of Main Content -->
-    <footer>
-      <div class="row bg-kamtire" style="padding:16px;">
-        <p class="my-3 ml-3 openSans1827 text-white">Footer</p>
-      </div>
-      <div class="row bg-tire">
-        <p class="text-white ml-3 my-3 openSans1523" style="padding:0px 16px;">Powered by <a href="" class="text-white" style="text-decoration: underline;">w3.css</a></p>
-      </div>
-    </footer>
+  <!-- END of Main Content -->
+
+  <!-- Footer -->
+  <footer class="">
+    <div class="row bg-kamtire mx-0" style="padding:16px;">
+      <p class="my-3 ml-3 openSans1827 text-white">Footer</p>
+    </div>
+    <div class="row bg-tire mx-0">
+      <p class="text-white ml-3 my-3 openSans1523" style="padding:0px 16px;">Powered by <a href="" class="text-white" style="text-decoration: underline;">w3.css</a></p>
+    </div>
+  </footer>
+<!-- End of Footer -->
     <!-- Scripts -->
     <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
     <script src="assets/js/jquery-3.4.1.js"></script>

@@ -196,6 +196,10 @@ body{
 .marginY15{
     margin: 15px 0px;
 }
+
+.topMargin{
+    margin-top: 10%;
+}
 .thubmnailImg{
     width: 100%;
     margin-bottom: 15px;
