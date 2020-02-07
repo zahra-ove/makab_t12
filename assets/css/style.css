@@ -19,8 +19,8 @@ body{
 .fa-pencil-alt, .fa-home, .fa-birthday-cake{
     color: black !important;
 }
-.fa-users, .fa-calendar-check, .fa-circle-notch{
-    color: white;
+.fa-users, .fa-calendar-check, .fa-circle-notch, .fa-pencil-alt{
+    color: white !important;
 }
 .fa-times{
     color: black !important;
@@ -28,8 +28,11 @@ body{
 .wicon{
     color: white !important;
 }
+.grayicon{
+    color: #607D8B !important;
+}
 .faBugBig{
-    font-size: 36px !important;
+    font-size: 30px !important;
 }
 .blackColor{
     color: black !important;
@@ -234,6 +237,7 @@ body{
     border-radius: 50%;
     display: inline;
 }
+
 
 /* End of Middle content */
 
